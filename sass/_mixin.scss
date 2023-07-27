@@ -1,0 +1,23 @@
+@mixin cursor-pointer{
+    cursor: pointer;
+}
+
+// tr = transition
+@mixin tr-500{
+    transition: all 500ms;
+}
+
+// f = font , m = poppinM
+@mixin f-family-m{
+    font-family: poppinM;
+}
+
+// f = font , R = poppinR
+@mixin f-family-r{
+    font-family: poppinR;
+}
+
+// f = font , b = poppinB
+@mixin f-family-b{
+    font-family: poppinB;
+}
